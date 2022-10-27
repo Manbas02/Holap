@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+    font-family: 'Patrick Hand', cursive;
+}
+body{
+    background: url(perrito.jpg)no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.campos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-right: 5%;
+    background-color: #f7f3f3;
+    border-radius: 50px;
+    border: none 1px;
+    width: 40%;
+}
+#audio{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+#si{
+    border-radius: 5px;
+    border: 2px solid;
+    font-size: 2rem;
+    background-color: #fdfd96;
+    color: black;
+    padding: auto;
+}
+#si:hover{
+    background-color: #cece73;
+    cursor: pointer;
+    transition: .3s;
+}
+#no{
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 2rem;
+    background-color: #e2504c;
+    color: white;
+    padding: auto;
+    cursor: pointer;
+}
+#texto{
+    margin-top: 5%;
+    font-size: 1.7rem;
+}
